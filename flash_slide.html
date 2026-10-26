@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>OpenCloning flash slide</title>
+<style>
+  /* Colors and fonts taken from opencloning.org */
+  :root {
+    --primary: #1976d2;
+    --dark: #212529;
+    --muted: #6c757d;
+    --light: #f8f9fa;
+    --border: #dee2e6;
+  }
+  @page { size: 1920px 1080px; margin: 0; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { background: #fff; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--dark);
+  }
+  .slide {
+    width: 1920px; height: 1080px; overflow: hidden;
+    padding: 64px 88px 56px;
+    display: grid;
+    grid-template-columns: 1fr 640px;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    column-gap: 72px;
+  }
+  header { grid-column: 1 / 3; display: flex; align-items: baseline; gap: 28px; }
+  .brand { font-size: 40px; font-weight: 700; color: var(--primary); }
+  h1 { font-size: 64px; line-height: 1.1; font-weight: 700; }
+  h1 span { color: var(--primary); }
+  .points { display: flex; flex-direction: column; justify-content: center; gap: 36px; margin-top: 24px; }
+  .point { display: flex; gap: 32px; align-items: flex-start; }
+  .num {
+    flex: none; width: 76px; height: 76px; border-radius: 50%;
+    background: var(--primary); color: #fff;
+    font-size: 40px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .point h2 { font-size: 42px; line-height: 1.15; margin-bottom: 8px; }
+  .point p { font-size: 30px; line-height: 1.3; color: var(--muted); }
+  .point p b { color: var(--dark); font-weight: 600; }
+  .right { margin-top: 24px; display: flex; flex-direction: column; gap: 20px; min-height: 0; }
+  .shot {
+    background: var(--light); border: 2px solid var(--border); border-radius: 24px;
+    padding: 20px; display: flex; justify-content: center;
+  }
+  .shot img { width: 100%; max-height: 400px; object-fit: contain; }
+  .cta {
+    display: flex; flex-direction: column; gap: 14px;
+  }
+  .cta-row { display: flex; gap: 20px; align-items: center; }
+  .cta-row img { width: 110px; height: 110px; flex: none; }
+  .cta-row div { font-size: 28px; line-height: 1.25; color: var(--muted); }
+  .cta-row b { display: block; font-size: 32px; color: var(--primary); font-weight: 700; }
+  footer {
+    grid-column: 1 / 3; margin-top: 16px; padding-top: 18px;
+    border-top: 2px solid var(--border);
+    display: flex; justify-content: space-between;
+    font-size: 26px; color: var(--muted);
+  }
+  footer b { color: var(--dark); }
+</style>
+</head>
+<body>
+<div class="slide">
+  <header>
+    <h1><span>OpenCloning:</span> open-source DNA cloning you can automate</h1>
+  </header>
+
+  <div class="points">
+    <div class="point">
+      <div class="num">1</div>
+      <div>
+        <h2>Design in the browser or script it in Python</h2>
+        <p>Every method in SnapGene, <b>plus</b> homologous recombination, IVA, CRISPR, phage recombinases and more. Every step is recorded.</p>
+      </div>
+    </div>
+    <div class="point">
+      <div class="num">2</div>
+      <div>
+        <h2>The best Golden Gate tool</h2>
+        <p><b>Define your syntax once</b>, pick parts from dropdowns and get every combination, documented. Fully scriptable for automation.</p>
+      </div>
+    </div>
+    <div class="point">
+      <div class="num">3</div>
+      <div>
+        <h2>OpenCloningDB: manage your whole collection</h2>
+        <p>Sequences, oligos, strains and sequencing data in one place. <b>Pilot labs wanted.</b></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="shot"><img src="app_screenshot2.png" alt="OpenCloning app screenshot"></div>
+    <div class="cta">
+      <div class="cta-row">
+        <img src="qr_opencloning_app.png" alt="QR code for app.opencloning.org">
+        <div><b>▶ Try it free</b>app.opencloning.org</div>
+      </div>
+      <div class="cta-row">
+        <img src="qr_email_opencloningdb.png" alt="QR code to email about OpenCloningDB">
+        <div><b>▶ Pilot OpenCloningDB</b>Scan to get in touch</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <span><b>Manuel Lera-Ramirez</b> &amp; Jürg Bähler · UCL &amp; The Francis Crick Institute</span>
+    <span>Free · open source · self-hostable</span>
+  </footer>
+</div>
+</body>
+</html>
