@@ -172,11 +172,16 @@
             -webkit-column-break-before: always;
         }
 
-        /* Call to action: teal so it stands out from the blue info banners */
+        div.alert-info {
+            padding: 1em 1.5em;
+            text-align: center;
+        }
+
+        div.alert-info img {
+            margin-left: 1em;
+        }
+
         div.cta {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
             background-color: #00796b;
             color: white;
             border-radius: 1em;
@@ -187,7 +192,19 @@
         div.cta .cta-title {
             font-size: 1.3em;
             font-weight: bold;
-            margin-bottom: .2em;
+            text-align: center;
+            margin-bottom: .4em;
+        }
+
+        div.cta .cta-body {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        div.cta a {
+            color: white;
+            text-decoration: underline;
         }
 
         div.cta .cta-email {

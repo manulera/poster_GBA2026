@@ -16,9 +16,8 @@ An **open-source platform to plan, document and automate DNA engineering**.
 </div>
 
 <div class="mt-2 img-wrapper alert alert-info" role="alert" style="display: flex; justify-content: center; align-items: center; border-radius: 1em;">
-  <div>Use it at <u>https://app.opencloning.org</u></div>
-  <!-- PLACEHOLDER: replace with <img width="140em" src="qr_app.png" alt=""> -->
-  <div class="ph" style="width: 140px; height: 140px; flex-shrink: 0; margin-left: 1em;"></div>
+  <div>Use it at <a href="https://app.opencloning.org">https://app.opencloning.org</a></div>
+  <img width="140em" src="qr_opencloning_app.png" alt="QR code for app.opencloning.org" style="margin-left: 1em;">
 </div>
 
 </div>
@@ -47,8 +46,7 @@ print(product.history())
 
 <div class="mt-2 img-wrapper alert alert-info" role="alert" style="display: flex; justify-content: center; align-items: center; border-radius: 1em;">
   <div>See an example Python notebook</div>
-  <!-- PLACEHOLDER: replace with <img width="140em" src="qr_notebook.png" alt=""> -->
-  <div class="ph" style="width: 140px; height: 140px; flex-shrink: 0; margin-left: 1em;"></div>
+  <img width="140em" src="qr_pydna_history_notebook.png" alt="QR code for the pydna history notebook" style="margin-left: 1em;">
 </div>
 
 </div>
@@ -87,13 +85,14 @@ print(product.history())
 </div>
 
 <div class="cta">
-  <div>
-    <div class="cta-title">Try OpenCloningDB in your lab</div>
-    <div>We're looking for labs to try it. We'll help you get set up, and your feedback shapes what we build next.</div>
-    <div class="cta-email">✉️ manulera14@gmail.com</div>
+  <div class="cta-title">Try OpenCloningDB in your lab</div>
+  <div class="cta-body">
+    <div>
+      <div>We'll help you set it up. Your feedback shapes what we build next.</div>
+      <div class="cta-email">✉️ <a href="mailto:manulera14@gmail.com?subject=OpenCloningDB">manulera14@gmail.com</a></div>
+    </div>
+    <img width="160em" src="qr_email_opencloningdb.png" alt="QR code to email manulera14@gmail.com" style="flex-shrink: 0; margin-left: 1em;">
   </div>
-  <!-- PLACEHOLDER: replace with a QR for mailto:manulera14@gmail.com?subject=OpenCloningDB -->
-  <div class="ph" style="width: 160px; height: 160px; flex-shrink: 0; margin-left: 1em;"></div>
 </div>
 
 </div>

@@ -60,7 +60,7 @@
 </div>
 
 <div class="mt-2 img-wrapper alert alert-info" role="alert" style="display: flex; justify-content: center; align-items: center; border-radius: 1em;">
-  <div>Create your own syntax at <u>https://syntax.opencloning.org/</u></div>
+  <div>Create your own syntax at <a href="https://syntax.opencloning.org/">https://syntax.opencloning.org/</a></div>
   <img width="140em" src="qr_syntax.png" alt="">
 </div>
 
