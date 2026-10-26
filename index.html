@@ -196,6 +196,11 @@
             margin-bottom: .4em;
         }
 
+        div.cta .cta-body > :first-child {
+            min-width: 0;
+            overflow-wrap: anywhere;
+        }
+
         div.cta .cta-body {
             display: flex;
             align-items: center;
@@ -207,9 +212,30 @@
             text-decoration: underline;
         }
 
+        div.cta .cta-qrs {
+            display: flex;
+            gap: .6em;
+            flex-shrink: 0;
+            margin-left: .8em;
+        }
+
+        div.cta figure {
+            margin: 0;
+            font-size: .8em;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        div.cta figure img {
+            width: 5.2em;
+            display: block;
+            margin: 0 auto .2em;
+        }
+
         div.cta .cta-email {
             font-weight: bold;
-            margin-top: .3em;
+            text-align: center;
+            margin-top: .5em;
         }
 
         div.box pre {

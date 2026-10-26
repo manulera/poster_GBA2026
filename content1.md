@@ -89,10 +89,19 @@ print(product.history())
   <div class="cta-body">
     <div>
       <div>We'll help you set it up. Your feedback shapes what we build next.</div>
-      <div class="cta-email">✉️ <a href="mailto:manulera14@gmail.com?subject=OpenCloningDB">manulera14@gmail.com</a></div>
     </div>
-    <img width="160em" src="qr_email_opencloningdb.png" alt="QR code to email manulera14@gmail.com" style="flex-shrink: 0; margin-left: 1em;">
+    <div class="cta-qrs">
+      <figure>
+        <img src="qr_email_opencloningdb.png" alt="QR code to email manulera14@gmail.com">
+        <figcaption>Get in touch</figcaption>
+      </figure>
+      <figure>
+        <img src="qr_mailing_list_subscribe.png" alt="QR code to subscribe to the mailing list">
+        <figcaption>Stay updated</figcaption>
+      </figure>
+    </div>
   </div>
+  <div class="cta-email">✉️ <a href="mailto:manulera14@gmail.com?subject=OpenCloningDB">manulera14@gmail.com</a></div>
 </div>
 
 </div>
