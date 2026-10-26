@@ -44,9 +44,15 @@ print(product.history())
         └─╼ vector (Dseqrecord(o35))
 ```
 
-<div class="mt-2 img-wrapper alert alert-info" role="alert" style="display: flex; justify-content: center; align-items: center; border-radius: 1em;">
-  <div>See an example Python notebook</div>
-  <img width="140em" src="qr_pydna_history_notebook.png" alt="QR code for the pydna history notebook" style="margin-left: 1em;">
+<div class="mt-2 img-wrapper alert alert-info" role="alert" style="display: flex; justify-content: space-around; align-items: center; border-radius: 1em;">
+  <figure>
+    <img width="140em" src="qr_pydna_history_notebook.png" alt="QR code for the pydna history notebook">
+    <figcaption>Example Notebook</figcaption>
+  </figure>
+  <figure>
+    <img width="140em" src="qr_opencloning_repo.png" alt="QR code for the OpenCloning GitHub repository">
+    <figcaption>OpenCloning on GitHub</figcaption>
+  </figure>
 </div>
 
 </div>
